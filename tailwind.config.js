@@ -7,6 +7,24 @@ module.exports = {
   ],
   theme: {
     extend: {
+      container: {
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
+          md: "2rem",
+          lg: "4rem",
+          xl: "5rem",
+          "2xl": "6rem",
+        },
+      },
+      colors: {
+        DARK: "#101017",
+        DARK01: "#313131",
+        DARK02: "#352F44",
+        DARK03: "#393E46",
+        RED01: "#FF0000",
+        YELLOW01: "#FFBE05",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
