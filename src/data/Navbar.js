@@ -1,8 +1,10 @@
+import { RiReactjsFill } from "react-icons/ri";
+
 export const DataNav = [
   {
     id: 1,
     name: "Home",
-    path: "#Home",
+    path: "/",
   },
   {
     id: 2,
@@ -12,7 +14,7 @@ export const DataNav = [
   {
     id: 3,
     name: "Skill",
-    path: "",
+    path: "#Skill",
   },
   {
     id: 4,
