@@ -11,17 +11,18 @@ import {
 } from "react-icons/si";
 import { RiReactjsFill } from "react-icons/ri";
 import { FaGitAlt, FaGithub } from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
 
 export const SkillTech = [
   {
     id: 1,
     name: "HTML",
-    icon: <IoLogoHtml5  />,
+    icon: <IoLogoHtml5 />,
   },
   {
     id: 2,
     name: "CSS",
-    icon: <IoLogoCss3  />,
+    icon: <IoLogoCss3 />,
   },
   {
     id: 3,
@@ -36,12 +37,12 @@ export const SkillTech = [
   {
     id: 5,
     name: "Dart",
-    icon: <SiDart  />,
+    icon: <SiDart />,
   },
   {
     id: 6,
     name: "React js",
-    icon: <RiReactjsFill  />,
+    icon: <RiReactjsFill />,
   },
   {
     id: 7,
@@ -72,6 +73,11 @@ export const SkillTech = [
     id: 12,
     name: "Tailwind",
     icon: <FaBootstrap />,
+  },
+  {
+    id: 13,
+    name: "MySQL",
+    icon: <GrMysql />,
   },
 ];
 

@@ -14,19 +14,20 @@ const Home = () => {
             Hello lm,
             <a className="text-white">Arwin Marinta</a>
           </span>
-          <div className=" font-bold text-white text-4xl s md:text-5xl xl:text-6xl gap-2">
+          <div className=" font-bold text-white text-4xl  md:text-5xl xl:text-6xl gap-2">
             Front End <a className="text-RED01">Developer</a>
           </div>
+
           <p className="text-lg text-white text-justify lg:max-w-[90%] ">
             A dedicated front-end developer with expertise in creating responsive and
             engaging user interfaces, possessing deep skills, and experience in
             implementing innovative designs to enhance user experience.
           </p>
           <div className="flex flex-row gap-4 ">
-            <button className="py-2 px-4 flex flex-row items-center rounded-[4px] border-2 border-RED01 text-RED01 font-semibold gap-1">
+            {/* <button className="py-2 px-4 flex flex-row items-center rounded-[4px] border-2 border-RED01 text-RED01 font-semibold gap-1">
               <IoPersonAdd />
               <span>Hire Me</span>
-            </button>
+            </button> */}
             <Link
               href="https://drive.google.com/file/d/1qohd7_97c2SOWT52V8VVz6kksWKv9lKp/view?usp=sharing"
               target="_blank"

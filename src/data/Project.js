@@ -4,6 +4,7 @@ import LinkTree from "../assets/project/LinkTree.jpg";
 import Mooc from "../assets/project/MOOC.jpg";
 import Todo from "../assets/project/TodoList.jpg";
 import Movie from "../assets/project/Movie.jpg";
+import Porto from "../assets/project/Portofolio.jpg";
 
 export const Projects = [
   {
@@ -54,7 +55,7 @@ export const Projects = [
       "Building MOOC applications in the form of videos that can be accessed at any time and can be used on various devices",
     tool: "React js + Tailwinds + Redux",
     pathGit: "https://github.com/ArwinMarinta/Front-End-iLearnTech",
-    pathApp: "https://ilearn-tech-admin.arwinmarinta.com",
+    pathApp: "https://ilearn-tech.arwinmarinta.com",
   },
   {
     id: 6,
@@ -64,6 +65,16 @@ export const Projects = [
       "Building an admin dashboard from the mooc application in making it easier to manage data",
     tool: "React js + Tailwinds + Redux",
     pathGit: "https://github.com/ArwinMarinta/Dashboard-Admin-iLearnTech",
-    pathApp: "https://ilearn-tech.arwinmarinta.com",
+    pathApp: "https://ilearn-tech-admin.arwinmarinta.com",
+  },
+  {
+    id: 7,
+    image: Porto,
+    tittle: "Portofolio",
+    describe:
+      "create a personal website that contains information about myself, my education, skills, and projects that I have worked on.",
+    tool: "Next js + Tailwinds",
+    pathGit: "https://github.com/ArwinMarinta/Portofolio-nextjs",
+    pathApp: "https://portofolio.arwinmarinta.com",
   },
 ];

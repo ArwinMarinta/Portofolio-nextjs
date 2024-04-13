@@ -10,9 +10,11 @@ const About = () => {
     <main className="w-full flex bg-DARK pt-10 justify-center " id="About">
       <div className="container mt-14 ">
         <div className="flex lg:flex-row flex-col gap-8 bg-DARK03 py-6 rounded-lg border-b-4 border-RED01">
-          <div className="flex flex-row lg:w-[40%]  gap-2 font-bold text-5xl w-full items-center justify-center px-4">
-            {/* <span className="text-white">About</span>
-            <span className="text-RED01">Me</span> */}
+          <div className="flex lg:w-[40%] flex-col  gap-2 font-bold text-5xl w-full items-center justify-center px-4">
+            <span className="text-white mb-6 lg:hidden font-bold text-5xl flex justify-center">
+              About
+              <a className="text-RED01">Me</a>
+            </span>
             <Image
               src={AboutMe}
               alt="Arwin marinta"
@@ -22,7 +24,10 @@ const About = () => {
             />
           </div>
           <div className="flex flex-col px-4 lg:w-[60%] xl:w-full">
-            <p className="text-white font-semibold text-lg text-justify pr-8 ">
+            <span className="text-white hidden font-bold text-5xl lg:flex justify-center">
+              About <a className="text-RED01">Me</a>
+            </span>
+            <p className="text-white font-semibold mt-6 text-lg text-justify lg:pr-8 ">
               Hi, Im Arwin Marinta from Tarakan, North Kalimantan.{" "}
               <a className="ordinal ">6th</a> semester Informatics Engineering student at
               Kalimantan Institute of Technology, Balikpapan, East Kalimantan. I have an
