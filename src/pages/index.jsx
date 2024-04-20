@@ -6,6 +6,8 @@ import Project from "@/components/Project";
 import Skill from "@/components/Skill";
 import Education from "@/components/Education";
 import Footer from "@/components/Navigation/Footer";
+import Contact from "@/components/Contact";
+import Certificate from "@/components/Certificate";
 
 const Index = () => {
   return (
@@ -16,7 +18,9 @@ const Index = () => {
       <Education />
       <Skill />
       <Project />
-      <Footer/>
+      <Certificate />
+      {/* <Contact /> */}
+      <Footer />
     </>
   );
 };

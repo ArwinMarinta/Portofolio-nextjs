@@ -1,10 +1,10 @@
-import CarRental from "../assets/project/CarRental.jpg";
-import Dashboard from "../assets/project/Dashboard.jpg";
-import LinkTree from "../assets/project/LinkTree.jpg";
-import Mooc from "../assets/project/MOOC.jpg";
-import Todo from "../assets/project/TodoList.jpg";
-import Movie from "../assets/project/Movie.jpg";
-import Porto from "../assets/project/Portofolio.jpg";
+import CarRental from "@/assets/project/CarRental.jpg";
+import Dashboard from "@/assets/project/Dashboard.jpg";
+import LinkTree from "@/assets/project/LinkTree.jpg";
+import Mooc from "@/assets/project/MOOC.jpg";
+import Todo from "@/assets/project/TodoList.jpg";
+import Movie from "@/assets/project/Movie.jpg";
+import Porto from "@/assets/project/Portofolio.jpg";
 
 export const Projects = [
   {

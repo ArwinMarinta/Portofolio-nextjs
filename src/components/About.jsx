@@ -27,37 +27,58 @@ const About = () => {
             <span className="text-white hidden font-bold text-5xl lg:flex justify-center">
               About <a className="text-RED01">Me</a>
             </span>
-            <p className="text-white font-semibold mt-6 text-lg text-justify lg:pr-8 ">
-              Hi, Im Arwin Marinta from Tarakan, North Kalimantan.{" "}
-              <a className="ordinal ">6th</a> semester Informatics Engineering student at
-              Kalimantan Institute of Technology, Balikpapan, East Kalimantan. I have an
-              interest in a career in software development, especially in the front end.
-              My ambition is to become an expert in creating attractive and responsive
-              user interfaces. I have high passion and enthusiasm in learning the latest
-              technology and can work together in a team. I have project experience during
-              college such as creating web-based, mobile, and UI/EX applications.
+            <p className="text-white indent-10 font-semibold mt-6 text-lg text-justify lg:pr-8 ">
+              I am Arwin Marinta who is more familiarly called Arwin. I come from Tarakan,
+              North Kalimantan. I am currently studying informatics at the Kalimantan
+              Institute of Technology, Balikpapan, East Kalimantan. I am currently in my
+              <a className="ordinal">3rd</a> year of college. I have high passion and
+              enthusiasm in learning new technology and able to work together in a team.
+            </p>
+            <p className="text-white indent-10o font-semibold mt-6 text-lg text-justify lg:pr-8 ">
+              I focus my expertise on software development especially in front end. I have
+              experience in application development projects using technologies such as
+              React.js, Next.js, Tailwind CSS, Flutter, Express.js, redux and github and
+              GIT as tools. In addition, I am also skilled in developing responsive
+              applications, well accessible on various types of devices.
             </p>
             <div className="flex flex-col justify-center items-center">
               <p className="mt-4 text-white font-bold border-b-4 border-RED01 max-w-fit text-lg ">
                 Social Media
               </p>
               <div className="mt-6 flex flex-row gap-4">
-                <Link href="" className="bg-white p-2 rounded-full hover:bg-[#E4405F]">
+                <Link
+                  href="https://www.instagram.com/wynnn_1/"
+                  target="_blank"
+                  className="bg-white p-2 rounded-full hover:bg-[#E4405F]"
+                >
                   <FaInstagram />
                 </Link>
-                <Link href="" className="bg-white p-2 rounded-full hover:bg-[#0077B5] ">
+                <Link
+                  href="https://www.linkedin.com/in/arwin-marinta/"
+                  target="_blank"
+                  className="bg-white p-2 rounded-full hover:bg-[#0077B5] "
+                >
                   <FaLinkedinIn />
                 </Link>
                 <Link
-                  href=""
+                  href="https://github.com/ArwinMarinta"
+                  target="_blank"
                   className="bg-white p-2 rounded-full hover:bg-[#181717]  hover:text-white"
                 >
                   <FaGithub />
                 </Link>
-                <Link href="" className="bg-white p-2 rounded-full hover:bg-[#1DB954]">
+                <Link
+                  href="https://open.spotify.com/user/31hjabaul3l36cbsftund7fhr6gq?si=iIYsvCvrRrG4o3werXF2XQ&nd=1&dlsi=f7e4445f67674860"
+                  target="_blank"
+                  className="bg-white p-2 rounded-full hover:bg-[#1DB954]"
+                >
                   <FaSpotify />
                 </Link>
-                <Link href="" className="bg-white p-2 rounded-full hover:bg-[#FF69B4]">
+                <Link
+                  href="https://link-tree.arwinmarinta.com"
+                  target="_blank"
+                  className="bg-white p-2 rounded-full hover:bg-[#FF69B4]"
+                >
                   <SiLinktree />
                 </Link>
               </div>
