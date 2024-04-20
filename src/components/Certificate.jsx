@@ -2,21 +2,24 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { Projects } from "@/data/Project";
+import { DataCertificate } from "@/data/Certificate";
 import Image from "next/image";
 import { responsive } from "@/data/Certificate";
 
 const Certificate = () => {
   return (
     <main className="w-full flex justify-center bg-DARK">
-      <div className="container py-10">
-        <div>
+      <div className="container py-10 flex flex-col ">
+        <div className="text-RED01 font-bold text-5xl flex justify-center">
+          Certificate
+        </div>
+        <div className="mt-10">
           <Carousel
             responsive={responsive}
             additionalTransfrom={0}
             arrows
             autoPlay
-            autoPlaySpeed={4000}
+            autoPlaySpeed={2000}
             centerMode={false}
             containerClass="container-with-dots"
             draggable
@@ -33,13 +36,13 @@ const Certificate = () => {
             rtl={false}
             shouldResetAutoplay
             showDots={false}
-            slidesToSlide={2}
+            slidesToSlide={1}
             swipeable
           >
-            {Projects.map((data) => (
-              <div key={data.id}>
-                <div>
-                  <Image src={data.image} alt="" className="w-full" />
+            {DataCertificate.map((data) => (
+              <div key={data.id} className="">
+                <div className="ml-4">
+                  <Image src={data.image} alt="certificate" className="w-full " />
                 </div>
               </div>
             ))}
