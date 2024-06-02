@@ -71,7 +71,7 @@ export const SkillTech = [
   },
   {
     id: 12,
-    name: "Tailwind",
+    name: "Booststrap",
     icon: <FaBootstrap />,
   },
   {

@@ -29,7 +29,7 @@ const Home = () => {
               <span>Hire Me</span>
             </button> */}
             <Link
-              href="https://drive.google.com/file/d/1qohd7_97c2SOWT52V8VVz6kksWKv9lKp/view?usp=sharing"
+              href="https://drive.google.com/file/d/1xpL3yTxSQ5a8Psy7yFyYHmhMZ8ygfdSD/view?usp=sharing"
               target="_blank"
               className="py-2 px-4 bg-RED01 rounded-[4px] text-white flex items-center justify-center font-semibold gap-1"
             >

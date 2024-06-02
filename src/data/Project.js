@@ -5,6 +5,9 @@ import Mooc from "@/assets/project/MOOC.jpg";
 import Todo from "@/assets/project/TodoList.jpg";
 import Movie from "@/assets/project/Movie.jpg";
 import Porto from "@/assets/project/Portofolio.jpg";
+import Meraih from "@/assets/project/Meraih.png";
+import Koperasi from "@/assets/project/Koperasi.jpg";
+import Semiotika from "@/assets/project/Semiotika.png";
 
 export const Projects = [
   {
@@ -76,5 +79,35 @@ export const Projects = [
     tool: "Next js + Tailwinds",
     pathGit: "https://github.com/ArwinMarinta/Portofolio-nextjs",
     pathApp: "https://portofolio.arwinmarinta.com",
+  },
+  {
+    id: 8,
+    image: Koperasi,
+    tittle: "Koperasi",
+    describe:
+      "create a personal website that contains information about myself, my education, skills, and projects that I have worked on.",
+    tool: "Next js + Tailwinds + Redux",
+    pathGit: "https://github.com/orgs/Koperasi-ITK/repositories",
+    pathApp: "",
+  },
+  {
+    id: 9,
+    image: Meraih,
+    tittle: "Employee Attendance",
+    describe:
+      "Create a mobile application to record employee attendance in a company. In addition, employees can also apply for permits, sickness, and more.",
+    tool: "Flutter + Riverpod",
+    pathGit: "https://github.com/ippl-hr-application/frontend-mobile",
+    pathApp: "",
+  },
+  {
+    id: 10,
+    image: Semiotika,
+    tittle: "Semiotika",
+    describe:
+      "Create a website as a medium of information and for the list of seminars to be conducted.",
+    tool: "Vue + Tailwinds",
+    pathGit: "https://github.com/ArwinMarinta/semiotika-clone",
+    pathApp: "https://semiotikaclone.arwinmarinta.com",
   },
 ];
