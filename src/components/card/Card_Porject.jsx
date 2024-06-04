@@ -9,25 +9,25 @@ const Card = ({ data }) => {
   return (
     <div className=" flex flex-col bg-DARK03 py-4 rounded-lg w-full cursor-pointer">
       <div className="px-4  flex flex-col gap-4">
-        <Image src={data.image} alt="Picture Project" className="w-full rounded-md" />
+        <Image src={data?.image} alt="Picture Project" className="w-full rounded-md" />
         <span className="text-YELLOW01 font-bold flex text-center justify-center">
-          {data.tittle}
+          {data?.tittle}
         </span>
         <div className="flex text-white text-justify">
-          <span className="line-clamp-3 hover:line-clamp-none">{data.describe}</span>
+          <span className="line-clamp-3 hover:line-clamp-none">{data?.describe}</span>
         </div>
         <div className="flex flex-row justify-between w-full items-center mt-4">
-          <div className="text-RED01 text-sm">{data.tool}</div>
+          <div className="text-RED01 text-sm">{data?.tool}</div>
           <div className="flex items-center gap-2 ">
             <Link
-              href={data.pathGit}
+              href={data?.pathGit}
               target="_blank"
               className="bg-DARK p-[6px] rounded-full"
             >
               <FaGithub className="text-white" />
             </Link>
             <Link
-              href={data.pathApp}
+              href={data?.pathApp}
               target="_blank"
               className="p-[6px] bg-DARK rounded-full "
             >

@@ -79,6 +79,11 @@ export const SkillTech = [
     name: "MySQL",
     icon: <GrMysql />,
   },
+  {
+    id: 13,
+    name: "Vue js",
+    // icon: <GrMysql />,
+  },
 ];
 
 export const SkilTools = [

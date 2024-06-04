@@ -85,7 +85,7 @@ export const Projects = [
     image: Koperasi,
     tittle: "Koperasi",
     describe:
-      "create a personal website that contains information about myself, my education, skills, and projects that I have worked on.",
+      "Building a web-based cooperative application in selling goods and entrusting goods. Members can also pay dues and withdraw contributions.",
     tool: "Next js + Tailwinds + Redux",
     pathGit: "https://github.com/orgs/Koperasi-ITK/repositories",
     pathApp: "",
