@@ -1,4 +1,4 @@
-import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript } from "react-icons/io5";
+import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoVue } from "react-icons/io5";
 import { FaPython, FaBootstrap } from "react-icons/fa6";
 import {
   SiDart,
@@ -9,6 +9,7 @@ import {
   SiRedux,
   SiTailwindcss,
 } from "react-icons/si";
+
 import { RiReactjsFill } from "react-icons/ri";
 import { FaGitAlt, FaGithub } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
@@ -80,9 +81,14 @@ export const SkillTech = [
     icon: <GrMysql />,
   },
   {
-    id: 13,
+    id: 14,
     name: "Vue js",
-    // icon: <GrMysql />,
+    icon: <IoLogoVue />,
+  },
+  {
+    id: 15,
+    name: "Riverpod",
+    // icon: <IoLogoVue />,
   },
 ];
 

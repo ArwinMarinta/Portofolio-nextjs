@@ -7,7 +7,7 @@ const Skill = () => {
     <main className="w-full flex justify-center pt-10 bg-DARK " id="Skill">
       <div className="container py-6">
         <span className="text-white font-bold text-5xl border-b-4 border-RED01 max-w-fit">
-          --Skill
+          Tech Stack
         </span>
 
         <div className=" font-bold mt-8 text-lg text-YELLOW01">Tech Stack:</div>
