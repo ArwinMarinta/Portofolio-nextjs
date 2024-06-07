@@ -13,7 +13,7 @@ export const DataNav = [
   },
   {
     id: 3,
-    name: "Tech Stack",
+    name: "Skill",
     path: "#Skill",
   },
   {

@@ -13,82 +13,100 @@ import {
 import { RiReactjsFill } from "react-icons/ri";
 import { FaGitAlt, FaGithub } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
+import HTML from "../assets/skill/html.svg";
+import CSS from "../assets/skill/css.svg";
+import VUE from "../assets/skill/vue-js.svg";
+import PYTHON from "../assets/skill/python.svg";
+import JS from "../assets/skill/js.svg";
+import DART from "../assets/skill/dart.svg";
+import REACT from "../assets/skill/reactjs.svg";
+import NEXT from "../assets/skill/next-js.svg";
+import FLUTTER from "../assets/skill/flutter.svg";
+import EXPRESS from "../assets/skill/express.svg";
+import REDUX from "../assets/skill/redux.svg";
+import TAILWINDS from "../assets/skill/tailwind.svg";
+import BOOTSTRAP from "../assets/skill/bootstrap.svg";
+import MYSQL from "../assets/skill/mysql.svg";
+import GITHUB from "../assets/skill/github.svg";
+import GIT from "../assets/skill/git.svg";
+import NPM from "../assets/skill/npm.svg";
+import RIVERPOD from "../assets/skill/riverpod.png";
 
 export const SkillTech = [
   {
     id: 1,
     name: "HTML",
-    icon: <IoLogoHtml5 />,
+    icon: HTML,
   },
   {
     id: 2,
     name: "CSS",
-    icon: <IoLogoCss3 />,
+    icon: CSS,
   },
   {
     id: 3,
     name: "JavaScript",
-    icon: <IoLogoJavascript />,
+    icon: JS,
   },
   {
     id: 4,
     name: "Python",
-    icon: <FaPython />,
+    icon: PYTHON,
   },
   {
     id: 5,
     name: "Dart",
-    icon: <SiDart />,
+    icon: DART,
   },
   {
     id: 6,
     name: "React js",
-    icon: <RiReactjsFill />,
+    icon: REACT,
   },
   {
     id: 7,
     name: "Next js",
-    icon: <SiNextdotjs />,
+    icon: NEXT,
   },
   {
     id: 8,
     name: "Flutter",
-    icon: <SiFlutter />,
+    icon: FLUTTER,
   },
   {
     id: 9,
     name: "Express js",
-    icon: <SiExpress />,
+    icon: EXPRESS,
   },
   {
     id: 10,
     name: "Redux",
-    icon: <SiRedux />,
+    icon: REDUX,
   },
   {
     id: 11,
     name: "Tailwind",
-    icon: <SiTailwindcss />,
+    icon: TAILWINDS,
   },
   {
     id: 12,
     name: "Booststrap",
-    icon: <FaBootstrap />,
+    icon: BOOTSTRAP,
   },
   {
     id: 13,
     name: "MySQL",
-    icon: <GrMysql />,
+    icon: MYSQL,
   },
   {
     id: 14,
     name: "Vue js",
-    icon: <IoLogoVue />,
+    icon: VUE,
   },
   {
     id: 15,
     name: "Riverpod",
-    // icon: <IoLogoVue />,
+    icon: RIVERPOD,
   },
 ];
 
@@ -96,16 +114,35 @@ export const SkilTools = [
   {
     id: 1,
     name: "Github",
-    icon: <FaGithub />,
+    icon: GITHUB,
   },
   {
     id: 2,
     name: "Git",
-    icon: <FaGitAlt />,
+    icon: GIT,
   },
   {
     id: 3,
     name: "NPM",
-    icon: <SiNpm />,
+    icon: NPM,
+  },
+];
+
+export const Button = [
+  {
+    id: 1,
+    name: "Tech Stack",
+  },
+  // {
+  //   id: 2,
+  //   name: "Back End",
+  // },
+  // {
+  //   id: 3,
+  //   name: "State Management",
+  // },
+  {
+    id: 4,
+    name: "Tools",
   },
 ];
