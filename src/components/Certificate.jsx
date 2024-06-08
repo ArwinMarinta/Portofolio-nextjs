@@ -10,10 +10,13 @@ const Certificate = () => {
   return (
     <main className="w-full flex justify-center bg-DARK">
       <div className="container py-10 flex flex-col ">
-        <div className="text-RED01 font-bold text-5xl flex justify-center ">
+        <div
+          data-aos="zoom-in"
+          className="text-RED01 font-bold text-5xl flex justify-center "
+        >
           Certificate
         </div>
-        <div className="mt-10 ">
+        <div className="mt-10 " data-aos="fade-up">
           <Carousel
             responsive={responsive}
             additionalTransfrom={0}

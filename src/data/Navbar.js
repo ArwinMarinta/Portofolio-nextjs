@@ -4,7 +4,7 @@ export const DataNav = [
   {
     id: 1,
     name: "Home",
-    path: "/",
+    path: "#Home",
   },
   {
     id: 2,

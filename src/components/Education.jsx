@@ -4,10 +4,12 @@ const Education = () => {
   return (
     <main className="w-full flex justify-center bg-DARK pt-10">
       <div className="container flex justify-center items-center flex-col">
-        <div className="text-RED01 font-bold text-5xl">Education</div>
-        <div className="relative mt-8 md:w-[60%]">
+        <div data-aos="fade-down" className="text-RED01 font-bold text-5xl">
+          Education
+        </div>
+        <div data-aos="zoom-in" className="relative mt-8 md:w-[60%]">
           <div className=" px-1  ">
-            <div className="border-l-4 border-RED01 text-white flex flex-col">
+            <div className="border-l-4 border-RED01 text-white flex flex-col ">
               <div className="flex flex-col pl-4">
                 <span className="text-lg">2021 - Now</span>
                 <span className="text-xl">INSTITUT TEKNOLOGI KALIMANTAN</span>

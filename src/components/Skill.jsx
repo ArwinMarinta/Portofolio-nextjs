@@ -37,31 +37,36 @@ const Skill = () => {
   return (
     <main className="w-full flex justify-center pt-10 bg-DARK " id="Skill">
       <div className="container py-6">
-        <span className="text-white font-bold text-5xl border-b-4 border-RED01 max-w-fit">
+        <div
+          data-aos="fade-left"
+          className="text-white font-bold text-5xl border-b-4 border-RED01 max-w-fit"
+        >
           Skill
-        </span>
-        <div className="mt-8 flex gap-2">
-          {Button.map((data) => (
-            <button
-              key={data.id}
-              onClick={() => setType(data.name)}
-              className={`py-[4px] rounded-md border-white px-3 text-gray-200 font-semibold ${
-                type === data.name
-                  ? type === "Tech Stack"
-                    ? "bg-DARK03"
-                    : "bg-DARK03"
-                  : ""
-              }`}
-            >
-              {data.name}
-            </button>
-          ))}
         </div>
+        <div data-aos="fade-right" className="flex flex-col">
+          <div className="mt-8 flex gap-2">
+            {Button.map((data) => (
+              <button
+                key={data.id}
+                onClick={() => setType(data.name)}
+                className={`py-[4px] rounded-md border-white px-3 text-gray-200 font-semibold ${
+                  type === data.name
+                    ? type === "Tech Stack"
+                      ? "bg-DARK03"
+                      : "bg-DARK03"
+                    : ""
+                }`}
+              >
+                {data.name}
+              </button>
+            ))}
+          </div>
 
-        <div className="grid mt-4 lg:grid-cols-5 grid-cols-2 sm:grid-cols-3  gap-6">
-          {getSkillsByType().map((data) => (
-            <Card_Skill key={data.id} data={data} />
-          ))}
+          <div className="grid mt-4 lg:grid-cols-5 grid-cols-2 sm:grid-cols-3  gap-6">
+            {getSkillsByType().map((data) => (
+              <Card_Skill key={data.id} data={data} />
+            ))}
+          </div>
         </div>
 
         {/* <div className=" font-bold mt-8 text-lg text-YELLOW01">Tech Stack:</div>

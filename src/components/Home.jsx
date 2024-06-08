@@ -4,12 +4,13 @@ import IconHome from "@/assets/icon_home.svg";
 import Image from "next/image";
 import { IoPersonAdd } from "react-icons/io5";
 import Link from "next/link";
+import Aos from "aos";
 
 const Home = () => {
   return (
     <main className="w-full h-full lg:h-screen bg-DARK flex justify-center" id="Home">
       <div className="container flex lg:flex-row  flex-col items-center mt-20">
-        <div className="flex flex-col lg:w-[60%] gap-8">
+        <div data-aos="fade-right" className="flex flex-col lg:w-[60%] gap-8">
           <span className="flex flex-row gap-2 text-RED01 font-bold text-xl lg:text-3xl">
             Hello lm,
             <a className="text-white">Arwin Marinta</a>
@@ -38,7 +39,10 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="lg:flex justify-center lg:w-[40%] mt-10 lg:mt-0 hidden">
+        <div
+          data-aos="fade-left"
+          className="lg:flex justify-center lg:w-[40%] mt-10 lg:mt-0 hidden"
+        >
           <Image src={IconHome} alt="Icon" className="rounded-xl w-full" />
         </div>
       </div>

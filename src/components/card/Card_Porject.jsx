@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Card = ({ data }) => {
   return (
-    <div className=" flex flex-col bg-DARK03 py-4 rounded-lg w-full cursor-pointer">
+    <div className=" flex flex-col bg-DARK03 hover:bg-[#2e3142] py-4 rounded-lg w-full cursor-pointer">
       <div className="px-4  flex flex-col gap-4">
         <Image src={data?.image} alt="Picture Project" className="w-full rounded-md" />
         <span className="text-YELLOW01 font-bold flex text-center justify-center">
@@ -16,8 +16,14 @@ const Card = ({ data }) => {
         <div className="flex text-white text-justify">
           <span className="line-clamp-3 hover:line-clamp-none">{data?.describe}</span>
         </div>
-        <div className="flex flex-row justify-between w-full items-center mt-4">
-          <div className="text-RED01 text-sm">{data?.tool}</div>
+        <div className="flex flex-row justify-between w-full items-end mt-4 ">
+          <div className="flex flex-row gap-4">
+            {data.tool.map((datas) => (
+              <div key={datas.id}>
+                <Image src={datas.image} alt="" width={20} height={20} />
+              </div>
+            ))}
+          </div>
           <div className="flex items-center gap-2 ">
             <Link
               href={data?.pathGit}

@@ -8,7 +8,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <main className="w-full flex bg-DARK pt-10 justify-center " id="About">
-      <div className="container mt-14 ">
+      <div className="container mt-14  " data-aos="fade-up">
         <div className="flex lg:flex-row flex-col gap-8 bg-DARK03 py-6 rounded-lg border-b-4 border-RED01">
           <div className="flex lg:w-[40%] flex-col  gap-2 font-bold text-5xl w-full items-center justify-center px-4">
             <span className="text-white mb-6 lg:hidden font-bold text-5xl flex justify-center">
