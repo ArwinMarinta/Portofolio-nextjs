@@ -4,7 +4,7 @@ import IconHome from "@/assets/icon_home.svg";
 import Image from "next/image";
 import { IoPersonAdd } from "react-icons/io5";
 import Link from "next/link";
-import Aos from "aos";
+const { URL_PORTO } = process.env;
 
 const Home = () => {
   return (
@@ -30,7 +30,7 @@ const Home = () => {
               <span>Hire Me</span>
             </button> */}
             <Link
-              href="https://drive.google.com/file/d/1xpL3yTxSQ5a8Psy7yFyYHmhMZ8ygfdSD/view?usp=sharing"
+              href={`${URL_PORTO}`}
               target="_blank"
               className="py-2 px-4 bg-RED01 rounded-[4px] text-white flex items-center justify-center font-semibold gap-1"
             >

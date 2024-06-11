@@ -5,6 +5,7 @@ import Mooc from "@/assets/project/MOOC.jpg";
 import Todo from "@/assets/project/TodoList.jpg";
 import Movie from "@/assets/project/Movie.jpg";
 import Porto from "@/assets/project/Portofolio.jpg";
+import SKILLHEALTH from "@/assets/project/skillhealth.png";
 import Meraih from "@/assets/project/Meraih.png";
 import Koperasi from "@/assets/project/Koperasi.jpg";
 import Semiotika from "@/assets/project/Semiotika.png";
@@ -227,6 +228,24 @@ export const Projects = [
       },
     ],
     pathGit: "https://github.com/ArwinMarinta/semiotika-clone",
+    pathApp: "https://semiotikaclone.arwinmarinta.com",
+  },
+  {
+    id: 11,
+    image: SKILLHEALTH,
+    tittle: "Skilhealth",
+    describe: "This website is still under development",
+    tool: [
+      {
+        id: 1,
+        image: VUE,
+      },
+      {
+        id: 2,
+        image: TAILWINDS,
+      },
+    ],
+    pathGit: "https://github.com/ArwinMarinta/fe-skillhealt",
     pathApp: "https://semiotikaclone.arwinmarinta.com",
   },
 ];
