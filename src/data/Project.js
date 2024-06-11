@@ -246,6 +246,6 @@ export const Projects = [
       },
     ],
     pathGit: "https://github.com/ArwinMarinta/fe-skillhealt",
-    pathApp: "https://semiotikaclone.arwinmarinta.com",
+    pathApp: "https://skillhealt.arwinmarinta.com",
   },
 ];
