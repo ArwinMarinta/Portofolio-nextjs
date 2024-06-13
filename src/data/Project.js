@@ -19,6 +19,7 @@ import VUE from "../assets/skill/vue-js.svg";
 import HTML from "../assets/skill/html.svg";
 import JS from "../assets/skill/js.svg";
 import NEXT from "../assets/skill/next-js.svg";
+import TS from "../assets/skill/ts.svg";
 export const Projects = [
   {
     id: 1,
@@ -238,6 +239,10 @@ export const Projects = [
     tool: [
       {
         id: 1,
+        image: TS,
+      },
+      {
+        id: 2,
         image: VUE,
       },
       {

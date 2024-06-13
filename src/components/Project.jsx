@@ -14,7 +14,7 @@ const Project = () => {
         </div>
         <div
           data-aos="fade-up"
-          className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-10 mt-10"
+          className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-10"
         >
           {Projects.map((data) => (
             <Card key={data.id} data={data} />

@@ -16,7 +16,7 @@ const Card = ({ data }) => {
         <div className="flex text-white text-justify">
           <span className="line-clamp-3 hover:line-clamp-none">{data?.describe}</span>
         </div>
-        <div className="flex flex-row justify-between w-full items-end mt-4 ">
+        <div className="flex flex-row justify-between w-full items-end mt-4 gap-4 ">
           <div className="flex flex-row gap-4">
             {data.tool.map((datas) => (
               <div key={datas.id}>
