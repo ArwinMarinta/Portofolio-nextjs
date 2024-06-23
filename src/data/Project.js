@@ -20,6 +20,7 @@ import HTML from "../assets/skill/html.svg";
 import JS from "../assets/skill/js.svg";
 import NEXT from "../assets/skill/next-js.svg";
 import TS from "../assets/skill/ts.svg";
+import ASTANI from "../assets/project/astani.jpg";
 export const Projects = [
   {
     id: 1,
@@ -198,7 +199,7 @@ export const Projects = [
     image: Meraih,
     tittle: "Employee Attendance",
     describe:
-      "Create a mobile application to record employee attendance in a company. In addition, employees can also apply for permits, sickness, and more.",
+      "Building a mobile application to record employee attendance in a company. In addition, employees can also apply for permits, sickness, and more.",
     tool: [
       {
         id: 1,
@@ -252,5 +253,28 @@ export const Projects = [
     ],
     pathGit: "https://github.com/ArwinMarinta/fe-skillhealt",
     pathApp: "https://skillhealt.arwinmarinta.com",
+  },
+  {
+    id: 12,
+    image: ASTANI,
+    tittle: "AsTani",
+    describe:
+      "Building a website admin and user front end to predict diseases in plants using the convolutional neural network model that has been built",
+    tool: [
+      {
+        id: 1,
+        image: JS,
+      },
+      {
+        id: 2,
+        image: REACT,
+      },
+      {
+        id: 2,
+        image: TAILWINDS,
+      },
+    ],
+    pathGit: "https://github.com/ArwinMarinta/astani-frontend-user",
+    pathApp: "",
   },
 ];

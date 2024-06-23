@@ -7,7 +7,13 @@ const Contact = () => {
   return (
     <main className="w-full flex justify-center bg-DARK">
       <div className="container flex flex-col items-center">
-        <div className="text-RED01 text-center font-bold text-5xl ">
+        <a
+          href="mailto:septianushendra3@gmail.com"
+          title="send email to employee"
+          target="_blank"
+          className="text-blue-600 underline"
+        ></a>
+        {/* <div className="text-RED01 text-center font-bold text-5xl ">
           Contact <a className="text-white">Me</a>
         </div>
         <span className="text-white">
@@ -34,7 +40,7 @@ const Contact = () => {
           <Link href="" className="bg-white p-2 rounded-full hover:bg-[#FF69B4]">
             <SiLinktree />
           </Link>
-        </div>
+        </div> */}
       </div>
     </main>
   );
