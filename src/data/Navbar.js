@@ -21,9 +21,9 @@ export const DataNav = [
     name: "Project",
     path: "#Project",
   },
-  // {
-  //   id: 5,
-  //   name: "Contact",
-  //   path: "",
-  // },
+  {
+    id: 5,
+    name: "Contact",
+    path: "#Contact",
+  },
 ];

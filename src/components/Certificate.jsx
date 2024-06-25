@@ -8,8 +8,8 @@ import { responsive } from "@/data/Certificate";
 
 const Certificate = () => {
   return (
-    <main className="w-full flex justify-center bg-DARK">
-      <div className="container py-10 flex flex-col ">
+    <main className="w-full flex justify-center  bg-DARK">
+      <div className="container py-16 flex flex-col ">
         <div
           data-aos="zoom-in"
           className="text-RED01 font-bold text-5xl flex justify-center "

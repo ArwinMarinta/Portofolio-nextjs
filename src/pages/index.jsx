@@ -19,7 +19,7 @@ const Index = () => {
       <Skill />
       <Project />
       <Certificate />
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
     </>
   );
