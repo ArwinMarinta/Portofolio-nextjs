@@ -2,8 +2,8 @@ import React from "react";
 
 const Education = () => {
   return (
-    <main className="w-full flex justify-center bg-DARK pt-10">
-      <div className="container flex justify-center items-center flex-col">
+    <main className="w-full flex justify-center bg-DARK ">
+      <div className="container flex justify-center items-center flex-col py-10">
         <div data-aos="fade-down" className="text-RED01 font-bold text-5xl">
           Education
         </div>

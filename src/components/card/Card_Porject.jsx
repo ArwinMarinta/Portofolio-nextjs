@@ -9,7 +9,11 @@ const Card = ({ data }) => {
   return (
     <div className=" flex flex-col bg-DARK03 hover:bg-[#2e3142] py-4 rounded-lg w-full cursor-pointer">
       <div className="px-4  flex flex-col gap-4 h-full">
-        <Image src={data?.image} alt="Picture Project" className="w-full rounded-md" />
+        <Image
+          src={data?.image}
+          alt={data?.tittle}
+          className="w-full h-full rounded-md"
+        />
         <span className="text-YELLOW01 font-bold flex text-center justify-center">
           {data?.tittle}
         </span>

@@ -54,51 +54,6 @@ const About = () => {
               GIT as tools. In addition, I am also skilled in developing responsive
               applications, well accessible on various types of devices.
             </p>
-            <div
-              // data-aos="fade-up"
-              className="flex flex-col justify-center items-center"
-            >
-              <p className="mt-4 text-white font-bold border-b-4 border-RED01 max-w-fit text-lg ">
-                Social Media
-              </p>
-              <div className="mt-6 flex flex-row gap-4">
-                <Link
-                  href="https://www.instagram.com/wynnn_1/"
-                  target="_blank"
-                  className="bg-white p-2 rounded-full hover:bg-[#E4405F]"
-                >
-                  <FaInstagram />
-                </Link>
-                <Link
-                  href="https://www.linkedin.com/in/arwin-marinta/"
-                  target="_blank"
-                  className="bg-white p-2 rounded-full hover:bg-[#0077B5] "
-                >
-                  <FaLinkedinIn />
-                </Link>
-                <Link
-                  href="https://github.com/ArwinMarinta"
-                  target="_blank"
-                  className="bg-white p-2 rounded-full hover:bg-[#181717]  hover:text-white"
-                >
-                  <FaGithub />
-                </Link>
-                <Link
-                  href="https://open.spotify.com/user/31hjabaul3l36cbsftund7fhr6gq?si=iIYsvCvrRrG4o3werXF2XQ&nd=1&dlsi=f7e4445f67674860"
-                  target="_blank"
-                  className="bg-white p-2 rounded-full hover:bg-[#1DB954]"
-                >
-                  <FaSpotify />
-                </Link>
-                <Link
-                  href="https://link-tree.arwinmarinta.com"
-                  target="_blank"
-                  className="bg-white p-2 rounded-full hover:bg-[#FF69B4]"
-                >
-                  <SiLinktree />
-                </Link>
-              </div>
-            </div>
           </div>
         </div>
       </div>

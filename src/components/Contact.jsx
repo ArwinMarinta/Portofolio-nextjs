@@ -134,12 +134,15 @@ const Contact = () => {
                 Arwin Marinta
               </label>
             </Link>
-            <div className="flex flex-row gap-4 py-2">
+            <Link
+              href="https://www.instagram.com/wynnn_1/"
+              className="flex flex-row gap-4 py-2"
+            >
               <Image src={Instagram} alt="Instagram" width={30} height={30} />
               <label className="text-white font-bold text-lg  hover:underline">
                 @wynnn_1
               </label>
-            </div>
+            </Link>
             <Link
               href="https://link-tree.arwinmarinta.com"
               className="flex flex-row gap-4 py-2"
@@ -194,7 +197,7 @@ const Contact = () => {
                 className="bg-RED01 text-white font-semibold sm:px-16 w-full  py-2 rounded-md right-2 fok "
               >
                 {loading ? (
-                  <a className="flex flex-row items-center gap-2">
+                  <a className="flex flex-row items-center gap-2 justify-center">
                     <IoIosSend />
                     {"send..."}
                   </a>

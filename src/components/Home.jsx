@@ -25,10 +25,13 @@ const Home = () => {
             implementing innovative designs to enhance user experience.
           </p>
           <div className="flex flex-row gap-4 ">
-            {/* <button className="py-2 px-4 flex flex-row items-center rounded-[4px] border-2 border-RED01 text-RED01 font-semibold gap-1">
+            <Link
+              href="#Contact"
+              className="py-2 px-4 flex flex-row items-center rounded-[4px] border-2 border-RED01 text-RED01 font-semibold gap-1"
+            >
               <IoPersonAdd />
               <span>Hire Me</span>
-            </button> */}
+            </Link>
             <Link
               href={`${URL_PORTO}`}
               target="_blank"
