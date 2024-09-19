@@ -2,6 +2,7 @@ import Certi1 from "@/assets/certificate/dart.svg";
 import Certi2 from "@/assets/certificate/msib.svg";
 import Certi3 from "@/assets/certificate/devOps.svg";
 import Certi4 from "@/assets/certificate/dasar_js.svg";
+import Certi5 from "@/assets/certificate/web_with_react.svg";
 
 export const responsive = {
   desktop: {
@@ -46,5 +47,9 @@ export const DataCertificate = [
   {
     id: 4,
     image: Certi4,
+  },
+  {
+    id: 5,
+    image: Certi5,
   },
 ];
