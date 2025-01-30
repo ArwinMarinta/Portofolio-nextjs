@@ -22,31 +22,30 @@ import NEXT from "../assets/skill/next-js.svg";
 import TS from "../assets/skill/ts.svg";
 import ASTANI from "../assets/project/astani.jpg";
 export const Projects = [
-  {
-    id: 1,
-    image: LinkTree,
-    tittle: "LinkTree",
-    describe:
-      "Building a website aims to provide users with an easy way to find and access my social media accounts.",
-    tool: [
-      {
-        id: 1,
-        image: REACT,
-      },
-      {
-        id: 2,
-        image: TAILWINDS,
-      },
-    ],
-    pathGit: "https://github.com/ArwinMarinta/link-tree",
-    pathApp: "https://link-tree.arwinmarinta.com",
-  },
+  // {
+  //   id: 1,
+  //   image: LinkTree,
+  //   tittle: "LinkTree",
+  //   describe:
+  //     "Building a website aims to provide users with an easy way to find and access my social media accounts.",
+  //   tool: [
+  //     {
+  //       id: 1,
+  //       image: REACT,
+  //     },
+  //     {
+  //       id: 2,
+  //       image: TAILWINDS,
+  //     },
+  //   ],
+  //   pathGit: "https://github.com/ArwinMarinta/link-tree",
+  //   pathApp: "https://link-tree.arwinmarinta.com",
+  // },
   {
     id: 2,
     image: CarRental,
     tittle: "Card Rental",
-    describe:
-      "Building a responsive website in promoting car rentals to make it easier for users to find car rentals in their area.",
+    describe: "Building a responsive website in promoting car rentals to make it easier for users to find car rentals in their area.",
     tool: [
       {
         id: 1,
@@ -64,31 +63,30 @@ export const Projects = [
     pathGit: "https://github.com/ArwinMarinta/Car-Rental",
     pathApp: "https://car-rental.arwinmarinta.com",
   },
-  {
-    id: 3,
-    image: Todo,
-    tittle: "TodoList",
-    describe:
-      "Building a website that makes it easy for users to record tasks they want to do and have done",
-    tool: [
-      {
-        id: 1,
-        image: REACT,
-      },
-      {
-        id: 2,
-        image: TAILWINDS,
-      },
-    ],
-    pathGit: "https://github.com/ArwinMarinta/Todo-List",
-    pathApp: "https://todo.arwinmarinta.com",
-  },
+  // {
+  //   id: 3,
+  //   image: Todo,
+  //   tittle: "TodoList",
+  //   describe:
+  //     "Building a website that makes it easy for users to record tasks they want to do and have done",
+  //   tool: [
+  //     {
+  //       id: 1,
+  //       image: REACT,
+  //     },
+  //     {
+  //       id: 2,
+  //       image: TAILWINDS,
+  //     },
+  //   ],
+  //   pathGit: "https://github.com/ArwinMarinta/Todo-List",
+  //   pathApp: "https://todo.arwinmarinta.com",
+  // },
   {
     id: 4,
     image: Movie,
     tittle: "Web Movie",
-    describe:
-      "Building a movie application where users can view the latest movies, movie details, and movie trailers",
+    describe: "Building a movie application where users can view the latest movies, movie details, and movie trailers",
     tool: [
       {
         id: 1,
@@ -110,8 +108,7 @@ export const Projects = [
     id: 5,
     image: Mooc,
     tittle: "Masive Online Open Course",
-    describe:
-      "Building MOOC applications in the form of videos that can be accessed at any time and can be used on various devices",
+    describe: "Building MOOC applications in the form of videos that can be accessed at any time and can be used on various devices",
     tool: [
       {
         id: 1,
@@ -133,8 +130,7 @@ export const Projects = [
     id: 6,
     image: Dashboard,
     tittle: "Dashboard MOOC",
-    describe:
-      "Building an admin dashboard from the mooc application in making it easier to manage data",
+    describe: "Building an admin dashboard from the mooc application in making it easier to manage data",
     tool: [
       {
         id: 1,
@@ -156,8 +152,7 @@ export const Projects = [
     id: 7,
     image: Porto,
     tittle: "Portofolio",
-    describe:
-      "create a personal website that contains information about myself, my education, skills, and projects that I have worked on.",
+    describe: "create a personal website that contains information about myself, my education, skills, and projects that I have worked on.",
     tool: [
       {
         id: 1,
@@ -175,8 +170,7 @@ export const Projects = [
     id: 8,
     image: Koperasi,
     tittle: "Koperasi",
-    describe:
-      "Building a web-based cooperative application in selling goods and entrusting goods. Members can also pay dues and withdraw contributions.",
+    describe: "Building a web-based cooperative application in selling goods and entrusting goods. Members can also pay dues and withdraw contributions.",
     tool: [
       {
         id: 1,
@@ -198,8 +192,7 @@ export const Projects = [
     id: 9,
     image: Meraih,
     tittle: "Employee Attendance",
-    describe:
-      "Building a mobile application to record employee attendance in a company. In addition, employees can also apply for permits, sickness, and more.",
+    describe: "Building a mobile application to record employee attendance in a company. In addition, employees can also apply for permits, sickness, and more.",
     tool: [
       {
         id: 1,
@@ -217,8 +210,7 @@ export const Projects = [
     id: 10,
     image: Semiotika,
     tittle: "Semiotika",
-    describe:
-      "Create a website as a medium of information and for the list of seminars to be conducted.",
+    describe: "Create a website as a medium of information and for the list of seminars to be conducted.",
     tool: [
       {
         id: 1,
@@ -258,8 +250,7 @@ export const Projects = [
     id: 12,
     image: ASTANI,
     tittle: "AsTani",
-    describe:
-      "Building a website admin and user front end to predict diseases in plants using the convolutional neural network model that has been built",
+    describe: "Building a website admin and user front end to predict diseases in plants using the convolutional neural network model that has been built",
     tool: [
       {
         id: 1,

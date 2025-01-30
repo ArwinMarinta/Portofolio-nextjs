@@ -5,6 +5,7 @@ import Image from "next/image";
 import { IoPersonAdd } from "react-icons/io5";
 import Link from "next/link";
 const { URL_PORTO } = process.env;
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
@@ -15,37 +16,39 @@ const Home = () => {
             Hello lm,
             <a className="text-white">Arwin Marinta</a>
           </span>
-          <div className=" font-bold text-white text-4xl  md:text-5xl xl:text-6xl gap-2">
+          {/* <div className=" font-bold text-white text-4xl  md:text-5xl xl:text-6xl gap-2">
             Front End <a className="text-RED01">Developer</a>
+          </div> */}
+
+          <div className="font-bold text-white text-4xl md:text-5xl xl:text-6xl gap-2">
+            <Typewriter
+              options={{
+                strings: ['Full Stack <span class="text-RED01">Developer</span>', 'Mobile <span class="text-RED01">Developer</span>'],
+                autoStart: true,
+                loop: true,
+                delay: 75,
+                wrapperClassName: "typewriter-text", // optional to customize the wrapper style
+                cursorClassName: "typewriter-cursor",
+              }}
+              onInit={(typewriter) => {
+                typewriter.start();
+              }}
+            />
           </div>
 
-          <p className="text-lg text-white text-justify lg:max-w-[90%] ">
-            A dedicated front-end developer with expertise in creating responsive and
-            engaging user interfaces, possessing deep skills, and experience in
-            implementing innovative designs to enhance user experience.
-          </p>
+          <p className="text-lg text-white text-justify lg:max-w-[90%] ">A dedicated full-stack developer with expertise in creating responsive and engaging web applications, possessing deep skills and experience in developing and implementing innovative designs to enhance user experience.</p>
           <div className="flex flex-row gap-4 ">
-            <Link
-              href="#Contact"
-              className="py-2 px-4 flex flex-row items-center rounded-[4px] border-2 border-RED01 text-RED01 font-semibold gap-1"
-            >
+            <Link href="#Contact" className="py-2 px-4 flex flex-row items-center rounded-[4px] border-2 border-RED01 text-RED01 font-semibold gap-1">
               <IoPersonAdd />
               <span>Hire Me</span>
             </Link>
-            <Link
-              href={`${URL_PORTO}`}
-              target="_blank"
-              className="py-2 px-4 bg-RED01 rounded-[4px] text-white flex items-center justify-center font-semibold gap-1"
-            >
+            <Link href={`${URL_PORTO}`} target="_blank" className="py-2 px-4 bg-RED01 rounded-[4px] text-white flex items-center justify-center font-semibold gap-1">
               <HiOutlineDownload className="font-bold text-xl" />
               <p>Download CV</p>
             </Link>
           </div>
         </div>
-        <div
-          data-aos="fade-left"
-          className="lg:flex justify-center lg:w-[40%] mt-10 lg:mt-0 hidden"
-        >
+        <div data-aos="fade-left" className="lg:flex justify-center lg:w-[40%] mt-10 lg:mt-0 hidden">
           <Image src={IconHome} alt="Icon" className="rounded-xl w-full" />
         </div>
       </div>

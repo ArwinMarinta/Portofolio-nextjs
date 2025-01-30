@@ -9,10 +9,7 @@ const About = () => {
   return (
     <main className="w-full flex bg-DARK pt-10 justify-center " id="About">
       <div className="container mt-14">
-        <div
-          data-aos="fade-up"
-          className="flex lg:flex-row flex-col gap-8 bg-DARK03 py-6 rounded-lg border-b-4 border-RED01"
-        >
+        <div data-aos="fade-up" className="flex lg:flex-row flex-col gap-8 bg-DARK03 py-6 rounded-lg border-b-4 border-RED01">
           <div className="flex lg:w-[40%] flex-col  gap-2 font-bold text-5xl w-full items-center justify-center px-4">
             <span className="text-white mb-6 lg:hidden font-bold text-5xl flex justify-center">
               About
@@ -38,21 +35,15 @@ const About = () => {
               // data-aos="fade-left"
               className="text-white indent-10 font-semibold mt-6 text-lg text-justify lg:pr-8 "
             >
-              I am Arwin Marinta who is more familiarly called Arwin. I come from Tarakan,
-              North Kalimantan. I am currently studying informatics at the Kalimantan
-              Institute of Technology, Balikpapan, East Kalimantan. I am currently in my
-              <a className="ordinal">3rd</a> year of college. I have high passion and
-              enthusiasm in learning new technology and able to work together in a team.
+              I am Arwin Marinta, commonly known as Arwin, from Tarakan, North Kalimantan. I am currently pursuing a degree in Informatics at the Kalimantan Institute of Technology in Balikpapan, East Kalimantan, and am in the final stage of my studies. I have a strong passion and enthusiasm for
+              learning new technologies and excel in teamwork to achieve common goals.
             </p>
             <p
               // data-aos="fade-left"
               className="text-white indent-10o font-semibold mt-6 text-lg text-justify lg:pr-8 "
             >
-              I focus my expertise on software development especially in front end. I have
-              experience in application development projects using technologies such as
-              React.js, Next.js, Tailwind CSS, Flutter, Express.js, redux and github and
-              GIT as tools. In addition, I am also skilled in developing responsive
-              applications, well accessible on various types of devices.
+              My expertise is in software development, particularly front-end development. I have experience in building web and mobile applications through internships, independent projects, and academic assignments. Additionally, I am skilled in developing responsive applications that are
+              accessible across various devices.
             </p>
           </div>
         </div>

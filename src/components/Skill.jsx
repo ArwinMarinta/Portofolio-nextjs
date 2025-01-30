@@ -4,32 +4,22 @@ import Card_Skill from "./card/Card_Skill";
 export { Button } from "../data/Skill";
 
 const Skill = () => {
-  const [type, setType] = useState("Tech Stack");
+  const [type, setType] = useState("Frontend");
 
   const getSkillsByType = () => {
     switch (type) {
-      case "Tech Stack":
-        return SkillTech.filter(
-          (skill) =>
-            skill.name === "HTML" ||
-            skill.name === "CSS" ||
-            skill.name === "JavaScript" ||
-            skill.name === "Python" ||
-            skill.name === "React js" ||
-            skill.name === "Vue js" ||
-            skill.name === "Dart" ||
-            skill.name === "Flutter" ||
-            skill.name === "Express js" ||
-            skill.name === "MySQL" ||
-            skill.name === "Redux" ||
-            skill.name === "Riverpod" ||
-            skill.name === "Next js" ||
-            skill.name === "Tailwind" ||
-            skill.name === "Booststrap"
-        );
+      case "Languages":
+        return SkillTech.filter((skill) => ["Python", "JavaScript", "TypeScript", "Dart"].includes(skill.name));
+
+      case "Frontend":
+        return SkillTech.filter((skill) => ["HTML", "CSS", "React js", "Vue js", "Next js", "Tailwind", "Booststrap", "Redux", "Flutter", "Bloc", "Riverpod", "Django"].includes(skill.name));
+
+      case "Backend":
+        return SkillTech.filter((skill) => ["Express js", "Django", "MySQL", "Nest js", "Prisma", "Sequelize", "TypeORM", "Postgresql"].includes(skill.name));
 
       case "Tools":
         return SkilTools;
+
       default:
         return [];
     }
@@ -37,26 +27,13 @@ const Skill = () => {
   return (
     <main className="w-full flex justify-center pt-10 bg-DARK " id="Skill">
       <div className="container py-6">
-        <div
-          data-aos="fade-left"
-          className="text-white font-bold text-5xl border-b-4 border-RED01 max-w-fit"
-        >
+        <div data-aos="fade-left" className="text-white font-bold text-5xl border-b-4 border-RED01 max-w-fit">
           Skill
         </div>
         <div data-aos="fade-right" className="flex flex-col">
           <div className="mt-8 flex gap-2">
             {Button.map((data) => (
-              <button
-                key={data.id}
-                onClick={() => setType(data.name)}
-                className={`py-[4px] rounded-md border-white px-3 text-gray-200 font-semibold ${
-                  type === data.name
-                    ? type === "Tech Stack"
-                      ? "bg-DARK03"
-                      : "bg-DARK03"
-                    : ""
-                }`}
-              >
+              <button key={data.id} onClick={() => setType(data.name)} className={`py-[4px] rounded-md border-white px-3 text-gray-200 font-semibold ${type === data.name ? (type === "Tech Stack" ? "bg-DARK03" : "bg-DARK03") : ""}`}>
                 {data.name}
               </button>
             ))}

@@ -1,14 +1,6 @@
 import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoVue } from "react-icons/io5";
 import { FaPython, FaBootstrap } from "react-icons/fa6";
-import {
-  SiDart,
-  SiNextdotjs,
-  SiFlutter,
-  SiExpress,
-  SiNpm,
-  SiRedux,
-  SiTailwindcss,
-} from "react-icons/si";
+import { SiDart, SiNextdotjs, SiFlutter, SiExpress, SiNpm, SiRedux, SiTailwindcss } from "react-icons/si";
 
 import { RiReactjsFill } from "react-icons/ri";
 import { FaGitAlt, FaGithub } from "react-icons/fa";
@@ -31,6 +23,16 @@ import GITHUB from "../assets/skill/github.svg";
 import GIT from "../assets/skill/git.svg";
 import NPM from "../assets/skill/npm.svg";
 import RIVERPOD from "../assets/skill/riverpod.png";
+import FIGMA from "../assets/skill/figma.svg";
+import DJANGO from "../assets/skill/django.svg";
+import BLOC from "../assets/skill/bloc.svg";
+import NEST from "../assets/skill/nest.svg";
+import TS from "../assets/skill/typescripts.svg";
+import PRISMA from "../assets/skill/prisma.svg";
+import SEQUALIZE from "../assets/skill/sequelize.svg";
+import TYPEORM from "../assets/skill/typeorm.svg";
+import POSTGRES from "../assets/skill/postgresql.svg";
+import POSTMAN from "../assets/skill/postman.svg";
 
 export const SkillTech = [
   {
@@ -60,53 +62,93 @@ export const SkillTech = [
   },
   {
     id: 6,
+    name: "TypeScript",
+    icon: TS,
+  },
+  {
+    id: 7,
     name: "React js",
     icon: REACT,
   },
   {
-    id: 7,
+    id: 8,
     name: "Next js",
     icon: NEXT,
   },
   {
-    id: 8,
+    id: 9,
     name: "Flutter",
     icon: FLUTTER,
   },
   {
-    id: 9,
+    id: 10,
     name: "Express js",
     icon: EXPRESS,
   },
   {
-    id: 10,
+    id: 11,
     name: "Redux",
     icon: REDUX,
   },
   {
-    id: 11,
+    id: 12,
     name: "Tailwind",
     icon: TAILWINDS,
   },
   {
-    id: 12,
+    id: 13,
     name: "Booststrap",
     icon: BOOTSTRAP,
   },
   {
-    id: 13,
+    id: 14,
     name: "MySQL",
     icon: MYSQL,
   },
   {
-    id: 14,
+    id: 15,
     name: "Vue js",
     icon: VUE,
   },
   {
-    id: 15,
+    id: 16,
     name: "Riverpod",
     icon: RIVERPOD,
+  },
+  {
+    id: 17,
+    name: "Django",
+    icon: DJANGO,
+  },
+  {
+    id: 18,
+    name: "Bloc",
+    icon: BLOC,
+  },
+  {
+    id: 19,
+    name: "Prisma",
+    icon: PRISMA,
+  },
+  {
+    id: 20,
+    name: "Sequelize",
+    icon: SEQUALIZE,
+  },
+  {
+    id: 21,
+    name: "TypeORM",
+    icon: TYPEORM,
+  },
+  {
+    id: 22,
+    name: "Nest js",
+    icon: NEST,
+  },
+  {
+    id: 23,
+    name: "Postgresql",
+    icon: POSTGRES,
   },
 ];
 
@@ -126,21 +168,31 @@ export const SkilTools = [
     name: "NPM",
     icon: NPM,
   },
+  {
+    id: 4,
+    name: "FIGMA",
+    icon: FIGMA,
+  },
+  {
+    id: 5,
+    name: "Postman",
+    icon: POSTMAN,
+  },
 ];
 
 export const Button = [
   {
     id: 1,
-    name: "Tech Stack",
+    name: "Frontend",
   },
-  // {
-  //   id: 2,
-  //   name: "Back End",
-  // },
-  // {
-  //   id: 3,
-  //   name: "State Management",
-  // },
+  {
+    id: 2,
+    name: "Backend",
+  },
+  {
+    id: 3,
+    name: "Languages",
+  },
   {
     id: 4,
     name: "Tools",
