@@ -18,11 +18,16 @@ export const DataNav = [
   },
   {
     id: 4,
+    name: "Experince",
+    path: "#Experince",
+  },
+  {
+    id: 5,
     name: "Project",
     path: "#Project",
   },
   {
-    id: 5,
+    id: 6,
     name: "Contact",
     path: "#Contact",
   },
